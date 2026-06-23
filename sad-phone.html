@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>صاد فون | كفرات وإكسسوارات</title>
+<title>صاد فون | كفرات iPhone احترافية</title>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -29,15 +29,15 @@
   /* ===== NAVBAR ===== */
   nav {
     position: fixed; top: 0; width: 100%; z-index: 100;
-    background: rgba(13,13,13,0.85);
+    background: rgba(13,13,13,0.95);
     backdrop-filter: blur(12px);
     padding: 16px 40px;
     display: flex; align-items: center; justify-content: space-between;
-    border-bottom: 1px solid rgba(255,255,255,0.07);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
   }
 
   .logo {
-    font-size: 1.6rem; font-weight: 900; letter-spacing: -1px;
+    font-size: 1.8rem; font-weight: 900; letter-spacing: -1px;
     background: linear-gradient(135deg, var(--pink), var(--purple), var(--cyan));
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   }
@@ -48,20 +48,20 @@
 
   .nav-cta {
     background: linear-gradient(135deg, var(--pink), var(--purple));
-    color: #fff; border: none; padding: 10px 22px;
+    color: #fff; border: none; padding: 11px 24px;
     border-radius: 50px; font-family: 'Cairo', sans-serif;
     font-size: 0.9rem; font-weight: 700; cursor: pointer;
     transition: transform .2s, box-shadow .2s;
     text-decoration: none;
   }
-  .nav-cta:hover { transform: scale(1.05); box-shadow: 0 0 20px rgba(255,45,120,0.5); }
+  .nav-cta:hover { transform: scale(1.05); box-shadow: 0 0 25px rgba(255,45,120,0.6); }
 
   /* ===== HERO ===== */
   .hero {
     min-height: 100vh;
     display: flex; align-items: center; justify-content: center;
     text-align: center;
-    padding: 120px 20px 80px;
+    padding: 140px 20px 80px;
     position: relative;
     overflow: hidden;
   }
@@ -69,34 +69,35 @@
   .hero-bg {
     position: absolute; inset: 0; z-index: 0;
     background:
-      radial-gradient(ellipse 60% 50% at 20% 50%, rgba(123,47,255,0.25) 0%, transparent 70%),
-      radial-gradient(ellipse 50% 40% at 80% 40%, rgba(255,45,120,0.2) 0%, transparent 70%),
-      radial-gradient(ellipse 40% 40% at 50% 80%, rgba(0,229,255,0.12) 0%, transparent 70%);
+      radial-gradient(ellipse 70% 60% at 20% 50%, rgba(123,47,255,0.3) 0%, transparent 70%),
+      radial-gradient(ellipse 60% 50% at 80% 40%, rgba(255,45,120,0.25) 0%, transparent 70%),
+      radial-gradient(ellipse 50% 50% at 50% 80%, rgba(0,229,255,0.15) 0%, transparent 70%);
   }
 
   .hero-grid {
-    position: absolute; inset: 0; z-index: 0; opacity: 0.06;
+    position: absolute; inset: 0; z-index: 0; opacity: 0.05;
     background-image: linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
                       linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
     background-size: 50px 50px;
   }
 
-  .hero-content { position: relative; z-index: 1; max-width: 750px; }
+  .hero-content { position: relative; z-index: 1; max-width: 800px; }
 
   .hero-tag {
     display: inline-block;
-    background: rgba(0,229,255,0.12);
-    border: 1px solid rgba(0,229,255,0.3);
+    background: rgba(0,229,255,0.15);
+    border: 1.5px solid rgba(0,229,255,0.4);
     color: var(--cyan);
-    padding: 6px 18px; border-radius: 50px;
-    font-size: 0.82rem; font-weight: 600; margin-bottom: 24px;
-    letter-spacing: 1px;
+    padding: 8px 20px; border-radius: 50px;
+    font-size: 0.85rem; font-weight: 700; margin-bottom: 28px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
   }
 
   .hero h1 {
-    font-size: clamp(2.8rem, 7vw, 5rem);
+    font-size: clamp(2.8rem, 8vw, 5.5rem);
     font-weight: 900; line-height: 1.1;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
 
   .hero h1 .gradient-text {
@@ -106,236 +107,226 @@
   }
 
   .hero p {
-    color: #aaa; font-size: 1.1rem; margin-bottom: 40px; line-height: 1.7;
+    color: #aaa; font-size: 1.15rem; margin-bottom: 44px; line-height: 1.8;
   }
 
   .hero-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
 
   .btn-primary {
     background: linear-gradient(135deg, var(--pink), var(--purple));
-    color: #fff; padding: 14px 32px; border-radius: 50px;
-    font-family: 'Cairo', sans-serif; font-weight: 700; font-size: 1rem;
+    color: #fff; padding: 15px 36px; border-radius: 50px;
+    font-family: 'Cairo', sans-serif; font-weight: 700; font-size: 1.05rem;
     text-decoration: none; cursor: pointer; border: none;
     transition: transform .2s, box-shadow .2s;
-    box-shadow: 0 4px 24px rgba(255,45,120,0.35);
+    box-shadow: 0 8px 32px rgba(255,45,120,0.4);
   }
-  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(255,45,120,0.5); }
+  .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 12px 48px rgba(255,45,120,0.6); }
 
   .btn-secondary {
     background: transparent;
-    color: var(--text); padding: 14px 32px; border-radius: 50px;
-    font-family: 'Cairo', sans-serif; font-weight: 700; font-size: 1rem;
+    color: var(--text); padding: 15px 36px; border-radius: 50px;
+    font-family: 'Cairo', sans-serif; font-weight: 700; font-size: 1.05rem;
     text-decoration: none; cursor: pointer;
-    border: 1.5px solid rgba(255,255,255,0.2);
-    transition: border-color .2s, background .2s;
+    border: 2px solid rgba(255,255,255,0.25);
+    transition: border-color .2s, background .2s, color .2s;
   }
-  .btn-secondary:hover { border-color: var(--cyan); background: rgba(0,229,255,0.07); }
+  .btn-secondary:hover { border-color: var(--cyan); background: rgba(0,229,255,0.1); color: var(--cyan); }
 
   .hero-stats {
-    display: flex; gap: 40px; justify-content: center; margin-top: 60px;
+    display: flex; gap: 50px; justify-content: center; margin-top: 70px;
     flex-wrap: wrap;
   }
   .stat { text-align: center; }
   .stat-number {
-    font-size: 2rem; font-weight: 900;
+    font-size: 2.2rem; font-weight: 900;
     background: linear-gradient(135deg, var(--yellow), var(--pink));
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   }
-  .stat-label { color: var(--muted); font-size: 0.82rem; margin-top: 2px; }
-
-  /* ===== FLOATING PHONES ===== */
-  .phones-visual {
-    position: relative; margin-top: 50px;
-    height: 140px; display: flex; justify-content: center; align-items: center; gap: 16px;
-  }
-  .phone-chip {
-    background: var(--card-bg);
-    border: 1px solid rgba(255,255,255,0.1);
-    border-radius: 16px; padding: 12px 18px;
-    display: flex; align-items: center; gap: 10px;
-    font-size: 0.85rem; font-weight: 600;
-    animation: float 3s ease-in-out infinite;
-  }
-  .phone-chip:nth-child(2) { animation-delay: .5s; }
-  .phone-chip:nth-child(3) { animation-delay: 1s; }
-  .phone-chip .dot {
-    width: 10px; height: 10px; border-radius: 50%;
-  }
-  @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
-  }
+  .stat-label { color: var(--muted); font-size: 0.9rem; margin-top: 4px; font-weight: 600; }
 
   /* ===== SECTION BASE ===== */
-  section { padding: 100px 40px; }
+  section { padding: 120px 40px; }
   .section-label {
     text-align: center; color: var(--cyan);
-    font-size: 0.82rem; font-weight: 700; letter-spacing: 3px;
-    text-transform: uppercase; margin-bottom: 12px;
+    font-size: 0.85rem; font-weight: 800; letter-spacing: 3px;
+    text-transform: uppercase; margin-bottom: 16px;
   }
   .section-title {
-    text-align: center; font-size: clamp(1.8rem, 4vw, 2.8rem);
-    font-weight: 900; margin-bottom: 12px;
+    text-align: center; font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 900; margin-bottom: 16px;
   }
   .section-sub {
-    text-align: center; color: var(--muted); font-size: 1rem;
-    margin-bottom: 60px; max-width: 500px; margin-inline: auto;
+    text-align: center; color: var(--muted); font-size: 1.05rem;
+    margin-bottom: 70px; max-width: 550px; margin-inline: auto; line-height: 1.7;
   }
 
   /* ===== FILTER TABS ===== */
   .filter-tabs {
-    display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;
-    margin-bottom: 50px;
+    display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
+    margin-bottom: 60px;
   }
   .tab {
-    padding: 9px 22px; border-radius: 50px;
-    border: 1.5px solid rgba(255,255,255,0.12);
+    padding: 10px 24px; border-radius: 50px;
+    border: 1.5px solid rgba(255,255,255,0.15);
     background: transparent; color: #aaa;
-    font-family: 'Cairo', sans-serif; font-size: 0.88rem; font-weight: 600;
-    cursor: pointer; transition: all .2s;
+    font-family: 'Cairo', sans-serif; font-size: 0.92rem; font-weight: 600;
+    cursor: pointer; transition: all .25s;
   }
   .tab.active, .tab:hover {
     background: linear-gradient(135deg, var(--pink), var(--purple));
     color: #fff; border-color: transparent;
-    box-shadow: 0 4px 16px rgba(255,45,120,0.35);
+    box-shadow: 0 6px 20px rgba(255,45,120,0.4);
   }
 
   /* ===== PRODUCTS GRID ===== */
   .products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 24px; max-width: 1200px; margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 28px; max-width: 1400px; margin: 0 auto;
   }
 
   .product-card {
     background: var(--card-bg);
-    border: 1px solid rgba(255,255,255,0.07);
-    border-radius: 20px; overflow: hidden;
-    transition: transform .25s, border-color .25s, box-shadow .25s;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 24px; overflow: hidden;
+    transition: transform .3s, border-color .3s, box-shadow .3s;
     cursor: pointer;
   }
   .product-card:hover {
-    transform: translateY(-6px);
-    border-color: rgba(255,45,120,0.4);
-    box-shadow: 0 12px 40px rgba(255,45,120,0.15);
+    transform: translateY(-8px);
+    border-color: rgba(255,45,120,0.5);
+    box-shadow: 0 20px 60px rgba(255,45,120,0.25);
   }
 
   .product-img {
-    width: 100%; height: 200px;
+    width: 100%; height: 240px;
     display: flex; align-items: center; justify-content: center;
-    font-size: 5rem; position: relative; overflow: hidden;
+    font-size: 3rem; position: relative; overflow: hidden;
+    background: linear-gradient(135deg, rgba(123,47,255,0.1), rgba(255,45,120,0.1));
+  }
+
+  .product-img img {
+    width: 100%; height: 100%;
+    object-fit: cover;
   }
 
   .badge {
-    position: absolute; top: 12px; right: 12px;
+    position: absolute; top: 14px; right: 14px;
     background: var(--pink); color: #fff;
-    font-size: 0.7rem; font-weight: 700; padding: 4px 10px; border-radius: 20px;
+    font-size: 0.75rem; font-weight: 800; padding: 6px 14px; border-radius: 50px;
+    text-transform: uppercase; letter-spacing: 0.5px;
   }
-  .badge.new { background: var(--cyan); color: var(--dark); }
   .badge.sale { background: var(--yellow); color: var(--dark); }
+  .badge.hot { background: #FF6B35; }
 
-  .product-info { padding: 18px; }
-  .product-name { font-weight: 700; font-size: 1rem; margin-bottom: 4px; }
-  .product-model { color: var(--muted); font-size: 0.82rem; margin-bottom: 12px; }
+  .product-info { padding: 22px; }
+  .product-name { font-weight: 800; font-size: 1.05rem; margin-bottom: 6px; color: #fff; }
+  .product-model { color: var(--muted); font-size: 0.85rem; margin-bottom: 14px; }
   .product-footer {
     display: flex; align-items: center; justify-content: space-between;
   }
   .price {
-    font-size: 1.15rem; font-weight: 900;
+    font-size: 1.3rem; font-weight: 900;
     background: linear-gradient(135deg, var(--pink), var(--purple));
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   }
   .add-btn {
     background: linear-gradient(135deg, var(--pink), var(--purple));
-    border: none; color: #fff; width: 36px; height: 36px; border-radius: 50%;
-    font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center;
+    border: none; color: #fff; width: 40px; height: 40px; border-radius: 50%;
+    font-size: 1.4rem; cursor: pointer; display: flex; align-items: center; justify-content: center;
     transition: transform .2s, box-shadow .2s;
+    box-shadow: 0 4px 16px rgba(255,45,120,0.3);
   }
-  .add-btn:hover { transform: scale(1.15); box-shadow: 0 4px 16px rgba(255,45,120,0.5); }
+  .add-btn:hover { transform: scale(1.2); box-shadow: 0 6px 24px rgba(255,45,120,0.5); }
 
   /* ===== WHY US ===== */
   .why-section {
-    background: linear-gradient(135deg, rgba(123,47,255,0.08), rgba(255,45,120,0.05));
-    border-top: 1px solid rgba(255,255,255,0.05);
-    border-bottom: 1px solid rgba(255,255,255,0.05);
+    background: linear-gradient(135deg, rgba(123,47,255,0.1), rgba(255,45,120,0.08));
+    border-top: 1px solid rgba(255,255,255,0.08);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
   }
 
   .features-grid {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 24px; max-width: 1000px; margin: 0 auto;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 28px; max-width: 1200px; margin: 0 auto;
   }
 
   .feature-card {
-    background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(255,255,255,0.07);
-    border-radius: 18px; padding: 28px 24px; text-align: center;
-    transition: border-color .2s, background .2s;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px; padding: 32px 28px; text-align: center;
+    transition: border-color .2s, background .2s, transform .2s;
   }
   .feature-card:hover {
-    border-color: rgba(0,229,255,0.3);
-    background: rgba(0,229,255,0.05);
+    border-color: rgba(0,229,255,0.4);
+    background: rgba(0,229,255,0.08);
+    transform: translateY(-4px);
   }
   .feature-icon {
-    font-size: 2.4rem; margin-bottom: 14px;
+    font-size: 2.8rem; margin-bottom: 16px;
     display: block;
   }
-  .feature-title { font-weight: 700; font-size: 1rem; margin-bottom: 6px; }
-  .feature-text { color: var(--muted); font-size: 0.85rem; line-height: 1.6; }
+  .feature-title { font-weight: 800; font-size: 1.1rem; margin-bottom: 8px; }
+  .feature-text { color: var(--muted); font-size: 0.9rem; line-height: 1.7; }
 
   /* ===== MARQUEE ===== */
-  .marquee-section { padding: 40px 0; overflow: hidden; border-top: 1px solid rgba(255,255,255,0.05); }
+  .marquee-section { padding: 50px 0; overflow: hidden; border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06); }
   .marquee-track {
-    display: flex; gap: 40px; white-space: nowrap;
-    animation: marquee 20s linear infinite;
+    display: flex; gap: 50px; white-space: nowrap;
+    animation: marquee 25s linear infinite;
   }
   .marquee-item {
-    color: rgba(255,255,255,0.25); font-size: 1rem; font-weight: 700;
-    display: flex; align-items: center; gap: 14px; flex-shrink: 0;
+    color: rgba(255,255,255,0.3); font-size: 1.1rem; font-weight: 700;
+    display: flex; align-items: center; gap: 16px; flex-shrink: 0;
   }
-  .marquee-dot { color: var(--pink); font-size: 0.6rem; }
+  .marquee-dot { color: var(--pink); font-size: 0.7rem; }
   @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
 
   /* ===== CTA SECTION ===== */
   .cta-section {
-    text-align: center; padding: 100px 40px;
+    text-align: center; padding: 120px 40px;
     position: relative; overflow: hidden;
   }
   .cta-bg {
     position: absolute; inset: 0; z-index: 0;
-    background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(123,47,255,0.2) 0%, transparent 70%);
+    background: radial-gradient(ellipse 80% 70% at 50% 50%, rgba(123,47,255,0.25) 0%, transparent 70%);
   }
   .cta-content { position: relative; z-index: 1; }
   .cta-section h2 {
-    font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 900; margin-bottom: 16px;
+    font-size: clamp(2.2rem, 6vw, 4rem); font-weight: 900; margin-bottom: 20px;
   }
-  .cta-section p { color: #aaa; font-size: 1.05rem; margin-bottom: 36px; }
+  .cta-section p { color: #aaa; font-size: 1.1rem; margin-bottom: 40px; }
 
   .whatsapp-btn {
-    display: inline-flex; align-items: center; gap: 10px;
+    display: inline-flex; align-items: center; gap: 12px;
     background: #25D366; color: #fff;
-    padding: 16px 36px; border-radius: 50px;
-    font-family: 'Cairo', sans-serif; font-size: 1.05rem; font-weight: 700;
+    padding: 18px 42px; border-radius: 50px;
+    font-family: 'Cairo', sans-serif; font-size: 1.1rem; font-weight: 800;
     text-decoration: none;
     transition: transform .2s, box-shadow .2s;
-    box-shadow: 0 4px 24px rgba(37,211,102,0.35);
+    box-shadow: 0 8px 32px rgba(37,211,102,0.4);
+    border: none; cursor: pointer;
   }
-  .whatsapp-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(37,211,102,0.5); }
+  .whatsapp-btn:hover { transform: translateY(-3px); box-shadow: 0 12px 48px rgba(37,211,102,0.6); }
 
   /* ===== FOOTER ===== */
   footer {
-    padding: 40px; text-align: center;
-    border-top: 1px solid rgba(255,255,255,0.06);
-    color: var(--muted); font-size: 0.85rem;
+    padding: 50px 40px; text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    color: var(--muted); font-size: 0.9rem;
   }
-  footer .logo { font-size: 1.4rem; margin-bottom: 8px; display: block; }
+  footer .logo { font-size: 1.6rem; margin-bottom: 12px; display: block; }
+  .footer-links { margin: 16px 0; display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+  .footer-links a { color: #aaa; text-decoration: none; font-size: 0.85rem; transition: color .2s; }
+  .footer-links a:hover { color: var(--cyan); }
 
   /* ===== RESPONSIVE ===== */
   @media (max-width: 768px) {
-    nav { padding: 14px 20px; }
+    nav { padding: 12px 16px; }
     .nav-links { display: none; }
-    section { padding: 70px 20px; }
-    .hero-stats { gap: 24px; }
-    .phones-visual { flex-wrap: wrap; height: auto; }
+    section { padding: 80px 20px; }
+    .hero-stats { gap: 32px; }
+    .products-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
   }
 </style>
 </head>
@@ -349,7 +340,7 @@
     <li><a href="#why">لماذا نحن</a></li>
     <li><a href="#contact">تواصل</a></li>
   </ul>
-  <a href="https://wa.me/96875004077" class="nav-cta">اطلب الآن</a>
+  <a href="https://wa.me/96875004077" class="nav-cta">🛒 اطلب الآن</a>
 </nav>
 
 <!-- HERO -->
@@ -357,42 +348,28 @@
   <div class="hero-bg"></div>
   <div class="hero-grid"></div>
   <div class="hero-content">
-    <span class="hero-tag">✦ عرض خاص - ريال عماني واحد فقط ✦</span>
+    <span class="hero-tag">⚡ عرض حصري - ريال عماني واحد فقط ⚡</span>
     <h1>
-      غطي جوالك
-      <span class="gradient-text">بأسلوبك</span>
+      كفرات iPhone
+      <span class="gradient-text">احترافية وجذابة</span>
     </h1>
-    <p>كفرات لكل أجهزة iPhone — جودة عالية، تصاميم حصرية، توصيل سريع</p>
+    <p>أفخم تصاميم وألوان حصرية مختا��ة بعناية — جودة عالية مضمونة مع توصيل سريع</p>
     <div class="hero-btns">
-      <a href="#products" class="btn-primary">تصفح المنتجات</a>
-      <a href="#contact" class="btn-secondary">تواصل معنا</a>
+      <a href="#products" class="btn-primary">🔥 تصفح المنتجات</a>
+      <a href="#contact" class="btn-secondary">💬 تواصل معنا</a>
     </div>
     <div class="hero-stats">
       <div class="stat">
-        <div class="stat-number">+500</div>
-        <div class="stat-label">تصميم حصري</div>
+        <div class="stat-number">+50</div>
+        <div class="stat-label">تصميم فريد</div>
       </div>
       <div class="stat">
-        <div class="stat-number">+1K</div>
+        <div class="stat-number">+2K</div>
         <div class="stat-label">عميل راضي</div>
       </div>
       <div class="stat">
         <div class="stat-number">24h</div>
-        <div class="stat-label">توصيل سريع</div>
-      </div>
-    </div>
-    <div class="phones-visual">
-      <div class="phone-chip">
-        <div class="dot" style="background:#FF2D78"></div>
-        iPhone 15 Pro
-      </div>
-      <div class="phone-chip">
-        <div class="dot" style="background:#7B2FFF"></div>
-        iPhone 14 Pro
-      </div>
-      <div class="phone-chip">
-        <div class="dot" style="background:#00E5FF"></div>
-        iPhone 13
+        <div class="stat-label">توصيل فوري</div>
       </div>
     </div>
   </div>
@@ -403,25 +380,29 @@
   <div class="marquee-track">
     <span class="marquee-item"><span class="marquee-dot">●</span>توصيل سريع</span>
     <span class="marquee-item"><span class="marquee-dot">●</span>جودة عالية</span>
-    <span class="marquee-item"><span class="marquee-dot">●</span>تصاميم حصرية</span>
-    <span class="marquee-item"><span class="marquee-dot">●</span>كفرات iPhone</span>
-    <span class="marquee-item"><span class="marquee-dot">●</span>ريال عماني واحد فقط</span>
+    <span class="marquee-item"><span class="marquee-dot">●</span>أسعار منخفضة</span>
+    <span class="marquee-item"><span class="marquee-dot">●</span>ألوان حصرية</span>
+    <span class="marquee-item"><span class="marquee-dot">●</span>ريال عماني واحد</span>
     <span class="marquee-item"><span class="marquee-dot">●</span>توصيل سريع</span>
     <span class="marquee-item"><span class="marquee-dot">●</span>جودة عالية</span>
-    <span class="marquee-item"><span class="marquee-dot">●</span>تصاميم حصرية</span>
-    <span class="marquee-item"><span class="marquee-dot">●</span>كفرات iPhone</span>
-    <span class="marquee-item"><span class="marquee-dot">●</span>ريال عماني واحد فقط</span>
+    <span class="marquee-item"><span class="marquee-dot">●</span>أسعار منخفضة</span>
+    <span class="marquee-item"><span class="marquee-dot">●</span>ألوان حصرية</span>
+    <span class="marquee-item"><span class="marquee-dot">●</span>ريال عماني واحد</span>
   </div>
 </div>
 
 <!-- PRODUCTS -->
 <section id="products">
-  <div class="section-label">المنتجات</div>
-  <h2 class="section-title">اختار اللي يناسبك</h2>
-  <p class="section-sub">كل الكفرات بـ ريال عماني واحد فقط! 🔥</p>
+  <div class="section-label">🛍️ المنتجات المميزة</div>
+  <h2 class="section-title">اختر اللي يناسب ذوقك</h2>
+  <p class="section-sub">مجموعة متنوعة من أفخم الكفرات بألوان رائعة وجودة مضمونة — كل الكفرات بسعر ريال عماني واحد فقط!</p>
 
   <div class="filter-tabs">
     <button class="tab active" onclick="filterProducts('all', this)">الكل</button>
+    <button class="tab" onclick="filterProducts('iphone11', this)">iPhone 11</button>
+    <button class="tab" onclick="filterProducts('iphone12', this)">iPhone 12</button>
+    <button class="tab" onclick="filterProducts('iphone13', this)">iPhone 13</button>
+    <button class="tab" onclick="filterProducts('iphone14', this)">iPhone 14</button>
   </div>
 
   <div class="products-grid" id="productsGrid"></div>
@@ -429,30 +410,40 @@
 
 <!-- WHY US -->
 <section class="why-section" id="why">
-  <div class="section-label">لماذا صاد فون</div>
-  <h2 class="section-title">مختلفون عن الباقين</h2>
-  <p class="section-sub">مو بس كفرات — تجربة تسوق كاملة</p>
+  <div class="section-label">✨ لماذا صاد فون</div>
+  <h2 class="section-title">نحن مختلفون</h2>
+  <p class="section-sub">ليست مجرد كفرات — تجربة تسوق احترافية من البداية للنهاية</p>
 
   <div class="features-grid">
     <div class="feature-card">
       <span class="feature-icon">🎨</span>
       <div class="feature-title">تصاميم حصرية</div>
-      <div class="feature-text">كفرات مو موجودة في أي مكان ثاني — تصاميمنا فريدة 100%</div>
+      <div class="feature-text">ألوان وتصاميم فريدة مختارة بعناية لا تجدها في أي مكان آخر</div>
     </div>
     <div class="feature-card">
       <span class="feature-icon">⚡</span>
       <div class="feature-title">توصيل سريع</div>
-      <div class="feature-text">توصل لبابك خلال 24 ساعة داخل المدينة</div>
+      <div class="feature-text">توصل لباب منزلك خلال 24 ساعة مع تغليف احترافي</div>
     </div>
     <div class="feature-card">
       <span class="feature-icon">🔒</span>
       <div class="feature-title">جودة مضمونة</div>
-      <div class="feature-text">مواد عالية الجودة تحمي جوالك وتحافظ على شكله</div>
+      <div class="feature-text">مواد عالية الجودة تحمي جوالك وتستمر معك طويلاً</div>
     </div>
     <div class="feature-card">
       <span class="feature-icon">💬</span>
       <div class="feature-title">دعم فوري</div>
-      <div class="feature-text">تواصل معنا على واتساب وارد خلال دقائق</div>
+      <div class="feature-text">تواصل معنا على واتساب وارد خلال دقائق بكل ما تحتاج</div>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">💰</span>
+      <div class="feature-title">أسعار منخفضة</div>
+      <div class="feature-text">ريال عماني واحد فقط — أفضل سعر في السوق مضمون</div>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">📱</span>
+      <div class="feature-title">توافق كامل</div>
+      <div class="feature-text">كفرات لجميع أجهزة iPhone من الإصدارات القديمة والحديثة</div>
     </div>
   </div>
 </section>
@@ -461,13 +452,13 @@
 <section class="cta-section" id="contact">
   <div class="cta-bg"></div>
   <div class="cta-content">
-    <h2>جاهز تطلب؟ 📦</h2>
-    <p>تواصل معنا على واتساب وخلنا نساعدك تلاقي الكفرة المثالية لجوالك</p>
+    <h2>جاهز لحماية جوالك بأسلوب؟ 📱</h2>
+    <p>اختر كفرتك المفضلة الآن واستمتع بتجربة تسوق سهلة وسريعة</p>
     <a href="https://wa.me/96875004077?text=السلام عليكم، أبي أطلب كفرة" class="whatsapp-btn">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
       </svg>
-      تواصل على واتساب
+      أطلب الآن على واتساب
     </a>
   </div>
 </section>
@@ -475,24 +466,34 @@
 <!-- FOOTER -->
 <footer>
   <span class="logo">صاد فون</span>
-  <p>© 2025 صاد فون — جميع الحقوق محفوظة</p>
+  <div class="footer-links">
+    <a href="#products">المنتجات</a>
+    <a href="#why">عن الشركة</a>
+    <a href="#contact">تواصل</a>
+  </div>
+  <p>© 2025 صاد فون — جميع الحقوق محفوظة | الرقم: +96875004077</p>
 </footer>
 
 <script>
 const products = [
-  { id:1, name:"كفرة Galaxy Bloom", model:"iPhone 15 Pro", price:"1 ر.ع", emoji:"🌸", bg:"linear-gradient(135deg,#FF2D78,#FF6BA8)", category:"iphone", badge:"عرض", badgeType:"sale" },
-  { id:3, name:"كفرة Midnight Sky", model:"iPhone 14 / 15", price:"1 ر.ع", emoji:"🌙", bg:"linear-gradient(135deg,#1a1a2e,#7B2FFF)", category:"iphone", badge:"عرض", badgeType:"sale" },
-  { id:7, name:"كفرة Aurora", model:"iPhone 15 / Plus", price:"1 ر.ع", emoji:"🌈", bg:"linear-gradient(135deg,#00E5FF,#FF2D78)", category:"iphone", badge:"عرض", badgeType:"sale" },
+  { id:1, name:"Black Midnight", model:"iPhone 11 / 12 / 13 / 14", price:"1 ر.ع", category:"all iphone11 iphone12 iphone13 iphone14", badge:"عرض", badgeType:"sale" },
+  { id:2, name:"Red Passion", model:"iPhone 11 Pro / 12 Pro / 13 Pro", price:"1 ر.ع", category:"all iphone11 iphone12 iphone13", badge:"جديد", badgeType:"hot" },
+  { id:3, name:"Ocean Blue", model:"iPhone 14 Pro Max", price:"1 ر.ع", category:"all iphone14", badge:"عرض", badgeType:"sale" },
+  { id:4, name:"Purple Dream", model:"iPhone 13 Pro Max", price:"1 ر.ع", category:"all iphone13", badge:"جديد", badgeType:"hot" },
+  { id:5, name:"Sky Light", model:"iPhone 11 / 12", price:"1 ر.ع", category:"all iphone11 iphone12", badge:"عرض", badgeType:"sale" },
+  { id:6, name:"Forest Green", model:"iPhone 14 / 14 Pro", price:"1 ر.ع", category:"all iphone14", badge:"", badgeType:"" },
+  { id:7, name:"Gold Shine", model:"iPhone 11 Pro Max", price:"1 ر.ع", category:"all iphone11", badge:"جديد", badgeType:"hot" },
+  { id:8, name:"Pink Blossom", model:"iPhone 13 / 13 Pro Max", price:"1 ر.ع", category:"all iphone13", badge:"عرض", badgeType:"sale" },
 ];
 
 function renderProducts(filter = 'all') {
   const grid = document.getElementById('productsGrid');
-  const filtered = filter === 'all' ? products : products.filter(p => p.category === filter);
+  const filtered = filter === 'all' ? products : products.filter(p => p.category.includes(filter));
   grid.innerHTML = filtered.map(p => `
     <div class="product-card">
-      <div class="product-img" style="background:${p.bg}">
+      <div class="product-img" style="background: linear-gradient(135deg, rgba(255,45,120,0.2), rgba(123,47,255,0.2))">
         ${p.badge ? `<div class="badge ${p.badgeType}">${p.badge}</div>` : ''}
-        <span style="filter:drop-shadow(0 4px 12px rgba(0,0,0,0.4))">${p.emoji}</span>
+        <div style="font-size: 4rem; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3))">📱</div>
       </div>
       <div class="product-info">
         <div class="product-name">${p.name}</div>
